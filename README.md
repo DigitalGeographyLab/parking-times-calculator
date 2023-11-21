@@ -16,10 +16,10 @@ delay arising from finding a parking spot and walking to the destination, in
 minutes.
 
 ```
->>> import parking_times_calculator
+>>> from parking_times_calculator import ParkingTimesCalculator
 >>> import shapely
 >>> p = shapely.Point(60.20, 24.95)
->>> parking_times_calculator = parking_times_calculator.ParkingTimesCalculator()
+>>> parking_times_calculator = ParkingTimesCalculator()
 >>> parking_times_calculator.parking_time(p)
 4
 ```
