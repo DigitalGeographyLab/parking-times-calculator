@@ -8,6 +8,13 @@ This package is used, for instance, for [calculating travel time matrices of the
 metropolitan
 area](https://github.com/DigitalGeographyLab/Helsinki-Travel-Time-Matrices).
 
+
+## Installation
+
+```
+pip install git+https://github.com/DigitalGeographyLab/parking-times-calculator.git
+```
+
 ## Use
 
 Instantiate a `ParkingTimesCalculator()` and call its method `parking_times()`,
